@@ -8,7 +8,7 @@ Cette application web simple permet d'ajouter des commandes avec un nom de produ
   - un nom de produit
   - un prix unitaire
   - une quantité
-- Affichage automatique de chaque commande avec son sous-total
+- Affichage automatique de chaque commande avec sous-total
 - Calcul du total de toutes les commandes
 - Réinitialisation du formulaire après ajout
 
@@ -21,6 +21,5 @@ Cette application web simple permet d'ajouter des commandes avec un nom de produ
 ## 🛠️ Technologies utilisées
 
 - HTML5
-- CSS3 (optionnel)
-- JavaScript (vanilla)
-
+- CSS3
+- JavaScript
