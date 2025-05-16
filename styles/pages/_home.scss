@@ -1,0 +1,70 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+form{
+    display: flex;
+    gap:5px;
+}
+h1 {
+    text-align: center;
+    margin: 25px 0;
+    font-family: "Playwrite DK Loopet", cursive;
+    font-weight: normal;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+button,
+textarea {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 2px solid crimson;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    // width: 100%;
+    padding: 0.8rem;
+    background-color:crimson;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #b30000;
+}
